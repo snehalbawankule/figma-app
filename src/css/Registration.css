@@ -1,0 +1,155 @@
+.img1{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 0px;
+    top: 10px;
+}
+.img0{
+  position: absolute;
+width: 339px;
+height: 303px;
+left: -89px;
+top: -108px;
+
+} 
+.container {
+    position: relative;
+    width: 414px;
+    height: 896px;
+  
+    background: #EAF2F2;
+  }
+  h1 {
+    position: absolute;
+    width: 308px;
+    height: 44px;
+    left: 80px;
+    top: 229px;
+  
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+  
+    color: #000000;
+  }
+  
+  h2 {
+    position: absolute;
+    width: 351px;
+    height: 54px;
+    left: 33px;
+    top: 273px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+  
+    color: rgba(117, 108, 108, 0.57);
+  }
+  
+  #name {
+    position: absolute;
+    width: 346.5px;
+    height: 68.35px;
+    left: 28.5px;
+    top: 394px;
+  
+    background: #FFFFFF;
+    border-radius: 30px;
+  }
+  
+  #email {
+    position: absolute;
+    width: 346.5px;
+    height: 68.35px;
+    left: 28.5px;
+    top: 477.1px;
+  
+    background: #FFFFFF;
+    border-radius: 30px;
+  }
+  
+  #pass1 {
+    position: absolute;
+    width: 346.5px;
+    height: 68.35px;
+    left: 28px;
+    top: 561.21px;
+  
+    background: #FFFFFF;
+    border-radius: 30px;
+  }
+  
+  #pass2 {
+    position: absolute;
+    width: 346.5px;
+    height: 68.35px;
+    left: 28.5px;
+    top: 644.31px;
+  
+    background: #FFFFFF;
+    border-radius: 30px;
+  }
+  
+  #btn {
+    position: absolute;
+    width: 321px;
+    height: 61px;
+    left: 54px;
+    top: 765px;
+  
+    background: #2ED2C9
+  }
+  
+  h4 {
+    position: absolute;
+    width: 345px;
+    height: 20px;
+    left: 39px;
+    top: 842px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+  
+    color: rgba(49, 44, 44, 0.57);
+  }
+  img{
+    
+  
+    position: absolute;
+    left: 0%;
+    right: 2.17%;
+    top: 0%;
+    bottom: 95.09%;
+  }
+  .shape{
+    position: absolute;
+  width: 339px;
+  height: 303px;
+  left: -89px;
+  top: -108px;
+  
+  }
+  img{
+    height: 200px;
+  }

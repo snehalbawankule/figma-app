@@ -1,0 +1,176 @@
+.img3{position: absolute;
+width: 175px;
+height: 150px;
+left: 111px;
+top: 404px;
+}
+.ts3{
+    position: absolute;
+width: 191px;
+height: 20px;
+left: 115px;
+top: 350px;
+
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #000000;
+}
+.ts2{
+    position: absolute;
+width: 256px;
+height: 34px;
+left: 90px;
+top: 290px;
+
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #FFFFFF;
+}
+.ts1{
+    position: absolute;
+width: 122px;
+height: 45px;
+left: 11px;
+top: 580px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #060606;
+
+}
+.img4{
+    position: absolute;
+width: 414px;
+height: 359px;
+left: 0px;
+top: 0px;
+}
+.checkbox{
+    position: absolute;
+width: 227px;
+height: 155px;
+left: 69px;
+top: 686px;
+}
+.img0{
+    position: absolute;
+width: 339px;
+height: 303px;
+left: -89px;
+top: -108px;
+
+}
+h6{
+    position: absolute;
+width: 122px;
+height: 45px;
+left: 50px;
+top: 610px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #060606;
+}
+#img2{
+    position: absolute;
+    width: 155px;
+    height: 148px;
+    left: 120px;
+    top: 150px;
+    border-radius: 50%;
+}
+.img1{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 0px;
+    top: 10px;
+}
+.img5{
+    position: absolute;
+width: 368px;
+height: 238px;
+left: 21px;
+top: 640px;
+
+background: rgba(255, 255, 255, 0.76);
+border-radius: 34px;
+}
+#checkbox01{
+    position: absolute;
+width: 25.35px;
+height: 22.43px;
+left: 69px;
+top: 688.49px;
+mix-blend-mode: darken;
+}
+.checkbox-wrapper01{
+
+    position: absolute;
+    width: 227px;
+    height: 31.4px;
+    left: 69px;
+    top: 684px;
+
+}
+.checkbox-wrapper02{
+    position: absolute;
+    width: 208.56px;
+    height: 31.4px;
+    left: 69px;
+    top: 717.4px;
+}
+.checkbox-wrapper03{
+    position: absolute;
+width: 194.74px;
+height: 31.4px;
+left: 69px;
+top: 746.8px;
+}
+.checkbox-wrapper04{
+    position: absolute;
+width: 178.6px;
+height: 31.4px;
+left: 69px;
+top: 778.2px;
+}
+.checkbox-wrapper05{
+    
+position: absolute;
+width: 184.37px;
+height: 31.4px;
+left: 69px;
+top: 809.6px;
+}

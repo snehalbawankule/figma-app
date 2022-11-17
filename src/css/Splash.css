@@ -1,0 +1,78 @@
+.cls02 {
+    position: absolute;
+    width: 308px;
+    height: 44px;
+    left: 53px;
+    top: 503px;
+
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #000000;
+}
+.img0{
+    position: absolute;
+width: 339px;
+height: 303px;
+left: -89px;
+top: -108px;
+
+}
+.container {
+    position: relative;
+    width: 414px;
+    height: 896px;
+  
+    background: #EAF2F2;
+  }
+#btn {
+    position: absolute;
+    width: 321px;
+    height: 61px;
+    left: 54px;
+    top: 765px;
+    background: #2ED2C9;
+    
+}
+
+.cls03 {
+    position: absolute;
+    width: 284px;
+    height: 132px;
+    left: 65px;
+    top: 547px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: rgba(111, 101, 101, 0.5);
+
+}
+.img1{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 0px;
+    top: 10px;
+}
+.img2{
+    position: absolute;
+width: 232px;
+height: 213px;
+left: 98px;
+top: 221px;
+}

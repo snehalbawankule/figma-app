@@ -1,0 +1,98 @@
+.container {
+  position: relative;
+  width: 414px;
+  height: 896px;
+
+  background: #EAF2F2;
+}
+.status{
+  width: 400px;
+  height: 50px;
+}
+.welcome01{
+  
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+#pass1 {
+  width: 322px;
+  height: 63.71px;
+  margin-top: 52px;
+  margin-left: 39px;
+  padding-left: 20px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  border: none;
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+  }
+  
+  #pass2 {
+width: 322px;
+height: 63.71px;
+margin-left: 39px;
+margin-top: 21.39px;
+background: #FFFFFF;
+border: none;
+border-radius: 30px;
+padding-left: 20px;
+    font-family: 'Noto Sans SC';
+    font-size: 18px;
+    letter-spacing: -0.3px;
+  }
+  
+  #btn {
+    width: 321px;
+    height: 61px;
+
+    margin-left: 54px;
+    border: none;
+    font-family: 'Noto Sans SC';
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    background: #2ED2C9;
+  }
+.girl{
+margin-left: 80px;
+}
+.have {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+color: rgba(117, 108, 108, 0.57);
+}
+
+.shape{
+  height: 195px;
+  background-position: top left;
+  background: url('../assets/images/shape.png');
+  background-repeat: no-repeat;
+  }
+  a{
+    color: #2ED2C9;
+    text-decoration: none;
+  }
+  .forgot{
+ padding-left: 99px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: rgba(19, 180, 170, 0.59);
+  }

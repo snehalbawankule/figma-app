@@ -1,0 +1,127 @@
+ .container {
+    position: relative;
+    width: 414px;
+    height: 896px;
+    background: #EAF2F2;
+  }
+  .welcome {
+    font-family: 'Noto Sans SC';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
+  }
+  
+  .help {
+    font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(117, 108, 108, 0.57);
+  }
+  
+  #name {
+    width: 342px;
+    height: 68px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-left: 19px;
+    margin-top: 43px;
+    font-family: 'Noto Sans SC';
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    color: #000000;
+  
+  
+  }
+  
+  #email {
+    width: 342px;
+    height: 68.35px;
+    border: none;
+     padding-left: 20px;
+    margin-left: 19px;
+    margin-top: 14.65px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Noto Sans SC';
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.3px;
+color: #000000;
+  
+    border-radius: 30px;
+  }
+  
+  #pass10 {
+    width: 342px;
+    height: 68px;
+    padding-left: 20px;
+    margin-left: 19px;
+    margin-top: 15.55px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Noto Sans SC';
+font-size: 18px;
+color: #000000;
+line-height: 26px;
+letter-spacing: -0.3px;
+  }
+  
+  #pass20 {
+    width: 342px;
+    height: 68px;
+    padding-left: 20px;
+    margin-left: 19px;
+    margin-top: 14.45px;
+    background: #FFFFFF;
+    font-family: 'Noto Sans SC';
+font-size: 18px;
+border: none;
+line-height: 26px;
+letter-spacing: -0.3px;
+color: #000000;
+  
+    border-radius: 30px;
+  }
+  
+  #btn1 {
+    width: 321px;
+    height: 61px;
+    margin-top: 52px;
+   margin-left: 45px;
+    font-family: 'Noto Sans SC';
+    font-size: 24px;
+    line-height: 35px;
+      border: none;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    background: #2ED2C9;
+  }
+  
+  .already {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(117, 108, 108, 0.57);
+  }
+
+  .shape{
+    background-position: top left;
+    background: url('../assets/images/shape.png');
+    background-repeat: no-repeat;
+    }
+    a{
+      color: #2ED2C9;
+      text-decoration: none;
+    }

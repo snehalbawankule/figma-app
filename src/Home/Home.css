@@ -1,0 +1,79 @@
+.container {
+  
+position: relative;
+width: 414px;
+height: 896px;
+
+background: #EAF2F2;
+  }
+  .clock{
+width: 175px;
+height: 150px;
+margin-left: 123px;
+}
+.ts3{
+font-family: 'Noto Sans SC';
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+margin-top: 12px;
+}
+.ts2{
+    font-family: 'Noto Sans SC';
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+.ts1{
+font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 24px;
+letter-spacing: -0.3px;
+margin-left: 11px;
+color: #060606;}
+
+.daily{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+    color: #494E4D;
+    margin-left: 38px;
+  }
+
+.profile{
+margin-left: 132px;
+margin-top: 39px;
+
+}
+.status{
+  width: 400px;
+  height: 50px;
+    margin-bottom: 54px;
+}
+
+.top{
+width: 414px;
+height: 359px;
+left: 0px;
+top: 0px;
+
+background-position: top left;
+background: url('../assets/images/shape1.png'),  #77E0D1;
+background-repeat: no-repeat;
+}
+.box{
+ 
+  margin-top: -20px;
+  margin-left: 21px;
+  margin-right: 25px;
+  margin-bottom: 27px;
+border-radius: 34px;
+background: rgba(255, 255, 255, 0.76);
+}
+

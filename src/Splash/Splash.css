@@ -1,0 +1,63 @@
+.cls02 {
+   margin-top: 67px;
+    font-family: 'Noto Sans SC';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+.container {
+    position: relative;
+    width: 414px;
+    height: 896px;
+    
+  
+    background: #EAF2F2;
+  }
+#btn01 {
+    width: 321px;
+    height: 61px;
+    margin-top: 58px;
+    margin-left: 54px;
+    border: none;
+    font-family: 'Noto Sans SC';
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    background: #2ED2C9;
+}
+
+.cls03 {
+    width: 284px;
+    height: 132px;
+       margin-left: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(111, 101, 101, 0.5);
+
+}
+.status{
+    width: 400px;
+    height: 50px;
+    left: 0px;
+    top: 10px;
+    margin-bottom: 54px;
+}
+.boy{
+margin-left: 98px;
+margin-top: 28px;
+}
+.shape{
+    width: 339px;
+height: 195px;
+    background-position: top left;
+    background: url('../assets/images/shape.png');
+    background-repeat: no-repeat;
+    }

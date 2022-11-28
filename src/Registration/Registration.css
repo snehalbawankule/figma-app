@@ -117,11 +117,14 @@ color: #000000;
   }
 
   .shape{
+    height: 195px;
     background-position: top left;
     background: url('../assets/images/shape.png');
     background-repeat: no-repeat;
     }
-    a{
+    #a{
       color: #2ED2C9;
-      text-decoration: none;
+      border: none;
+    font-size: 22px;
+    line-height: 28px;
     }

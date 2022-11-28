@@ -82,9 +82,11 @@ color: rgba(117, 108, 108, 0.57);
   background: url('../assets/images/shape.png');
   background-repeat: no-repeat;
   }
-  a{
+  #a1{
     color: #2ED2C9;
-    text-decoration: none;
+    border: none;
+  font-size: 22px;
+  line-height: 28px;
   }
   .forgot{
  padding-left: 99px;

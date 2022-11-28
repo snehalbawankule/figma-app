@@ -68,12 +68,13 @@ background: url('../assets/images/shape1.png'),  #77E0D1;
 background-repeat: no-repeat;
 }
 .box{
- 
-  margin-top: -20px;
-  margin-left: 21px;
-  margin-right: 25px;
-  margin-bottom: 27px;
-border-radius: 34px;
-background: rgba(255, 255, 255, 0.76);
+  width: 368px;
+  height: 230px;
+  left: 21px;
+  top: 621px;
+  margin-top: -15px;
+  margin-left: 30px;
+  background: rgba(255, 255, 255, 0.76);
+  border-radius: 34px;
 }
 

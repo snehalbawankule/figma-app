@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Home.css';
-import Checkbox01 from '../Checkbox/Checkbox';
+//import Checked from "../checked/checked";
+import Checkbox001 from '../Checkbox/checkbox001';
 import profile from '../assets/images/profile.png';
 import Statusbar from '../assets/images/Statusbar.png';
 import clock from '../assets/images/clock.jpg';
 
 function Home() {
+  useEffect(()=>{
+    fetch('https://jsonplaceholder.typicode.com/todos/')
+    .then(response => response.json())
+    .then(json => console.log(json))
+    .catch(error => console.log(error))
+   })
   return (
       <>
      
@@ -22,7 +29,7 @@ function Home() {
            <p className="ts1">Tasks list</p>
            <div className="box">
             <p className="daily">Daily Tasks</p>
-           <Checkbox01/>
+           <Checkbox001/>
            </div>
            </div>
         </div>

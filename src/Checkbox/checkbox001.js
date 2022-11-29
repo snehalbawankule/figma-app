@@ -1,22 +1,33 @@
-
+import { useState, useEffect} from 'react';
 import '../Home/Home.css';
 import './checkbox1.css';
 const Checkbox001 = () => {
+  const [todo, setTodo] = useState([])
+  useEffect(()=>{
+    fetch('https://jsonplaceholder.typicode.com/todos/')
+    .then(response => response.json())
+    .then(json => setTodo(json))
+    .catch(error => console.log(error))
+   },[todo])
+  const handleSubmit = (event,id,title) => {
+    event.preventDefault();
+    //console.log(title);
+    console.log(userInfo);
+    setUserInfo({ id:id, title: title, completed: isChecked });
+ 
+  };
+  const [isChecked, setIsChecked] = useState(true);
 
-    return (
+  const [userInfo, setUserInfo] = useState([])
+
+return (
       <>
-            <div className='box01'>
-        <input type="checkbox" id="cbox1"/> 
-        <label htmlFor="cbox1"> Learn programming by 12am </label><br />
-        <input type="checkbox" id="cbox2"/> 
-        <label htmlFor="cbox2"> Learn how to cook by 1pm </label><br />
-        <input type="checkbox" id="cbox3"/> 
-        <label htmlFor="cbox3"> Pick up the kids by 2pm </label><br />
-        <input type="checkbox" id="cbox4"/> 
-        <label htmlFor="cbox4">have lunch by 3pm </label><br />
-        <input type="checkbox" id="cbox5"/> 
-        <label htmlFor="cbox5"> Go visit mum by 4pm </label><br />
-      </div>
+              {todo.map(({id, title}, index)=> {
+                return <div key={index} onChange={(event) => handleSubmit(event,id,title)}   >
+                  <input type="checkbox" id="id" value={id}  onChange={(e) =>setIsChecked(!isChecked)}  />
+                <label htmlFor="id" value={title}>{title}</label><br />
+        </div>
+              })}
 
       </>
     )

@@ -68,6 +68,9 @@ background: url('../assets/images/shape1.png'),  #77E0D1;
 background-repeat: no-repeat;
 }
 .box{
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
   width: 368px;
   height: 230px;
   left: 21px;

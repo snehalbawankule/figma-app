@@ -1,24 +1,23 @@
 
-  #cbox1:checked + label {
+  #id:checked + label {
     text-decoration: line-through;
   }
-  #cbox2:checked + label {
-    text-decoration: line-through;
+#id{
+  margin-left: 50px;
+}
+  .scroller {
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
   }
-  #cbox3:checked + label {
-    text-decoration: line-through;
-  } #cbox4:checked + label {
-    text-decoration: line-through;
-  } #cbox5:checked + label {
-    text-decoration: line-through;
-  }
-  .box01{
+  label{
     
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 14px;
     margin-top: -5px;
-    margin-left: 50px;
     line-height: 30px;
     letter-spacing: -0.3px;
     

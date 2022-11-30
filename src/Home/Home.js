@@ -7,7 +7,6 @@ import Statusbar from '../assets/images/Statusbar.png';
 import clock from '../assets/images/clock.jpg';
 
 function Home() {
- 
   return (
       <>
      

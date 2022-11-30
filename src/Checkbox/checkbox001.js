@@ -11,7 +11,6 @@ const Checkbox001 = () => {
    },[todo])
   const handleSubmit = (event,id,title) => {
     event.preventDefault();
-    //console.log(title);
     console.log(userInfo);
     setUserInfo({ id:id, title: title, completed: isChecked });
  
@@ -19,16 +18,13 @@ const Checkbox001 = () => {
   const [isChecked, setIsChecked] = useState(true);
 
   const [userInfo, setUserInfo] = useState([])
-
 return (
       <>
-              {todo.map(({id, title}, index)=> {
-                return <div key={index} onChange={(event) => handleSubmit(event,id,title)}   >
-                  <input type="checkbox" id="id" value={id}  onChange={(e) =>setIsChecked(!isChecked)}  />
-                <label htmlFor="id" value={title}>{title}</label><br />
-        </div>
-              })}
-
+        {todo.map(({id, title}, index)=> {
+          return <div id='check-boxes' key={index} onChange={(event) => handleSubmit(event,id,title)}   >
+            <input type="checkbox" id="check-box" value={id}  onChange={(e) =>setIsChecked(!isChecked)}  />
+            <label className='checkbox-label' htmlFor="id" value={title}>{title}</label><br />
+          </div> })}
       </>
     )
   };

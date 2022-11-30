@@ -1,80 +1,28 @@
-.container {
-  
-position: relative;
-width: 414px;
-height: 896px;
-
-background: #EAF2F2;
-  }
-  .clock{
+.top{
+  height: 359px;
+  background: url('../assets/images/shape1.png'),  #77E0D1;
+  background-repeat: no-repeat;
+}
+#clock{
 width: 175px;
 height: 150px;
 margin-left: 123px;
 }
-.ts3{
-font-family: 'Noto Sans SC';
-font-size: 24px;
-line-height: 35px;
-text-align: center;
-margin-top: 12px;
-}
-.ts2{
-    font-family: 'Noto Sans SC';
-    font-size: 24px;
-    line-height: 35px;
-    text-align: center;
-    margin-top: 15px;
-    color: #FFFFFF;
-}
-.ts1{
-font-family: 'Roboto',sans-serif;
-font-weight: 700;
-font-size: 24px;
-letter-spacing: -0.3px;
-margin-left: 11px;
-color: #060606;}
-
-.daily{
-
+.cls-Robo1{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: -0.3px;
-    padding-top: 20px;
-    color: #494E4D;
-    margin-left: 38px;
+    font-weight: 700;
+    padding-left: 20px;
+    color: rgb(73, 78, 77);
   }
-
 .profile{
 margin-left: 132px;
 margin-top: 39px;
-
-}
-.status{
-  width: 400px;
-  height: 50px;
-    margin-bottom: 54px;
-}
-
-.top{
-width: 414px;
-height: 359px;
-left: 0px;
-top: 0px;
-
-background-position: top left;
-background: url('../assets/images/shape1.png'),  #77E0D1;
-background-repeat: no-repeat;
 }
 .box{
   overflow-y: scroll;
-  scrollbar-color: rebeccapurple green;
-  scrollbar-width: thin;
   width: 368px;
   height: 230px;
-  left: 21px;
-  top: 621px;
   margin-top: -15px;
   margin-left: 30px;
   background: rgba(255, 255, 255, 0.76);

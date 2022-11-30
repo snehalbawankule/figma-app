@@ -15,21 +15,19 @@ const Login =()=>{
        };
      return(
         <div className="container">
-          <div className="shape">
-                <img className="status" src={Statusbar} alt='status' />
-                </div>
-           <h1 className="welcome01">Welcome Back!</h1>
-                <img className="girl" src={girl} alt='girl' />
-                
-             <form onSubmit={navHome}>
-               <input type="password" id="pass1" name="password" placeholder="Enter Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required/>
-                <input type="password" id="pass2" name="password" placeholder="Confirm Password" required/>
-                <h2><a className="forgot" href="/forgot.html">Forgot your password</a></h2>
-              <input type="submit" id="btn" value="Get Started" onClick={validate}/>
-              <h4 className="have">Don't have an account? <input type="button" id="a1" value="Register" onClick={navRegistration}></input></h4>
+           <div className="shape">
+             <img className="status-bar" src={Statusbar} alt='status' />
+            </div>
+           <h1 className="cls-Noto">Welcome Back!</h1>
+           <img className="girl" src={girl} alt='girl' />
+            <form onSubmit={navHome}>
+              <input type="password" id="pass1" style={{marginTop:52}} className="input-box" name="password" placeholder="Enter Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required/>
+              <input type="password" id="pass2" className="input-box" name="password" placeholder="Confirm Password" required/>
+              <h2><a className="link" style={{paddingLeft:99}} href="/forgot.html">Forgot your password</a></h2>
+              <input type="submit" style={{marginTop:10}} className="btn01" value="Get Started" onClick={validate}/>
+              <h4 className="cls-Robo" style={{fontSize:18}} >Don't have an account? <input type="button" className="link" value="Register" onClick={navRegistration}></input></h4>
             </form>
           </div>
      );
-      
-}
+    }
       export default Login;
